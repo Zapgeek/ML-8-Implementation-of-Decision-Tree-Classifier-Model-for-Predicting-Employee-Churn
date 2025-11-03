@@ -8,36 +8,13 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Load Dataset: Import the dataset using pandas and understand its structure (features, target).
 
-Preprocess Data:
+1. **Load Data** – Import dataset using pandas and explore features & target.
+2. **Preprocess** – Handle missing values, encode categorical variables, and split into features (X) & target (y).
+3. **Train Model** – Split data and train a `DecisionTreeClassifier` from `sklearn.tree`.
+4. **Evaluate & Visualize** – Predict on test data, check accuracy/confusion matrix/precision/recall.
 
-Handle missing values
 
-Encode categorical variables (Label Encoding / One-Hot Encoding)
-
-Split the dataset into features (X) and target (y)
-
-Split Dataset: Divide data into training set and test set (e.g., 80:20 ratio).
-
-Build Decision Tree Classifier:
-
-Import DecisionTreeClassifier from sklearn.tree
-
-Train the model on the training set
-
-Predict & Evaluate:
-
-Make predictions on the test set
-
-Evaluate using accuracy, confusion matrix, precision, recall
-
-Visualize Decision Tree (Optional):
-
-Use plot_tree or export_graphviz to visualize decision paths
-2. 
-3. 
-4. 
 
 ## Program:
 ```
